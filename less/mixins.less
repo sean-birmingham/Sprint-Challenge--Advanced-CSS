@@ -1,1 +1,27 @@
-// Mixins Here
+.btn-signup(@btn-bg-color, @radius) {
+  width: 30%;
+  padding: 10px;
+  border-radius: @radius;
+  background: @btn-bg-color;
+  color: @porcelain;
+  font-size: 2rem;
+  text-align: center;
+  &:hover {
+    background: lightblue;
+    color: black;
+    cursor: pointer;
+  }
+}
+
+.flex(@direction, @align) {
+  display: flex;
+  flex-direction: @direction;
+  align-items: @align;
+}
+
+.nav-link {
+  color: @river-bend;
+  font-size: 1.6rem;
+  text-decoration: none;
+  margin-right: 3rem;
+}
