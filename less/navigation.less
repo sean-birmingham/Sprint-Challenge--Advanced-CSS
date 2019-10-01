@@ -1,1 +1,14 @@
-// Navigation code here
+.navigation {
+  background: @nav-bg;
+  padding: 15px;
+  .flex(column, center);
+  h1 {
+    font-size: 4rem;
+  }
+  nav {
+    margin-top: 20px;
+    a {
+      .nav-link();
+    }
+  }
+}
